@@ -11,8 +11,14 @@
     gap: 1rem;
 }
 
+.topnav a,
+.topnav a:visited {
+    text-decoration: none;
+    color: var(--myGreen);
+}
+
 .topnav code {
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.9rem;
     cursor: pointer;
 }

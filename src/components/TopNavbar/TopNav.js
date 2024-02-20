@@ -5,10 +5,12 @@ import './TopNav.css';
 export default function TopNav() {
     return (
         <nav className='topnav'>
-            <code>&lt; Kelvin /&gt;</code>
+            <a href='#webHome'>
+                <code>&lt; Kelvin /&gt;</code>
+            </a>
             <div className='topLinksContainer'>
-                <SectionLink nameOfSection='Skills'/>
-                <SectionLink nameOfSection='Projects'/>
+                <SectionLink nameOfSection='Skills' />
+                <SectionLink nameOfSection='Projects' />
             </div>
         </nav>
     );
