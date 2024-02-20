@@ -28,9 +28,9 @@
 }
 
 .eachSectionLink hr {
-    width: 4rem;
+    width: 2rem;
     margin: 0;
-    margin-right: 0.6rem;
+    margin-right: 0.4rem;
     height: 1px;
     background-color: white;
     border: none;
