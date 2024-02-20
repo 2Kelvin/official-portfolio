@@ -1,0 +1,25 @@
+.eachSectionLink {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.eachSectionLink p {
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.eachSectionLink p:hover,
+.eachSectionLink p:active {
+    color: var(--myGreen);
+}
+
+.eachSectionLink hr {
+    width: 4rem;
+    margin: 0;
+    margin-right: 0.6rem;
+    height: 1px;
+    background-color: white;
+    border: none;
+}
