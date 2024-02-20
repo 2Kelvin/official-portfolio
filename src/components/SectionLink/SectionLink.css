@@ -8,10 +8,22 @@
     color: white;
     text-transform: uppercase;
     cursor: pointer;
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.85rem;
 }
 
-.eachSectionLink p:hover,
-.eachSectionLink p:active {
+.eachSectionLink p a {
+    text-decoration: none;
+    color: white;
+}
+
+.eachSectionLink p a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.eachSectionLink p a:hover,
+.eachSectionLink p a:active {
     color: var(--myGreen);
 }
 

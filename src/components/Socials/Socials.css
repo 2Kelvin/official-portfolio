@@ -1,0 +1,33 @@
+.socials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.socials a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.socials a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.socials .socialIcon {
+    height: 4rem;
+    width: 4rem;
+    margin: auto;
+    cursor: pointer;
+}
+
+.socials .linkedIn:hover {
+    color: #126bc4;
+}
+
+.socials .github:hover {
+    color: #283344;
+}
