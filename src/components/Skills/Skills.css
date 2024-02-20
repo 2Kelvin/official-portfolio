@@ -1,0 +1,5 @@
+.skillsContainer {
+    min-height: 98vh;
+    display: grid;
+    place-content: center;
+}

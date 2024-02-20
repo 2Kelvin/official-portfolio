@@ -12,18 +12,18 @@
     font-size: 0.85rem;
 }
 
-.eachSectionLink p a {
+.eachSectionLink a {
     text-decoration: none;
-    color: white;
+    color: inherit;
 }
 
-.eachSectionLink p a:visited {
+.eachSectionLink a:visited {
     text-decoration: none;
-    color: white;
+    color: inherit;
 }
 
-.eachSectionLink p a:hover,
-.eachSectionLink p a:active {
+.eachSectionLink a p:hover,
+.eachSectionLink a p:active {
     color: var(--myGreen);
 }
 

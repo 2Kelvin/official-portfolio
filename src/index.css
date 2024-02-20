@@ -19,3 +19,7 @@ code {
   --myGreen: #40fe95;
   --greyText: #757575;
 }
+
+html {
+  scroll-behavior: smooth;
+}
