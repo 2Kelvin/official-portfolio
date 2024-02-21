@@ -2,8 +2,9 @@
     min-height: 98vh;
     display: grid;
     place-content: center;
-    width: 70%;
+    width: 90%;
     margin: auto;
+    /* padding-top: 7rem; */
 }
 
 .skillsContainer a {
@@ -19,7 +20,7 @@
 .skillsContainer .alxList {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 0.2rem;
 }
 

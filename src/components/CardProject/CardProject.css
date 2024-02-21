@@ -1,0 +1,15 @@
+.projectCard .appHeadingDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectCard .appHeadingDiv a,
+.projectCard .appHeadingDiv a:visited {
+    text-decoration: none;
+}
+
+.projectCard .appHeadingDiv a .githubIcon {
+    height: 1rem;
+    width: 1rem;
+}
