@@ -1,17 +1,18 @@
 import './CardProject.css';
-import { FaGithubAlt } from "react-icons/fa6";
+import { LuGithub } from "react-icons/lu";
 
-
-export default function CardProject({ appType, appName, githubLink, description, tags: appTags }) {
+export default function CardProject({ appType, appName, githubLink, description, appTags }) {
     return (
         <div className='projectCard'>
             <code>{appType}</code>
             <div className='appHeadingDiv'>
                 <h3>{appName}</h3>
-                <a href={githubLink} target='blank'><FaGithubAlt className='githubIcon' /></a>
+                <a href={githubLink} target='blank'><LuGithub className='githubIcon' /></a>
             </div>
             <div className='appDescription'>{description}</div>
-            <div className='appLanguages'>{appTags}</div>
+            <div className='appLanguages'>
+                {appTags.map((tag) => <code>{tag}</code>)}
+            </div>
         </div>
     );
 }

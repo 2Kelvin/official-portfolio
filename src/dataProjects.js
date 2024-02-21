@@ -30,7 +30,7 @@ const dataFetchingApp = {
     appType: 'Web app',
     appName: 'Async Data Fetching',
     githubLink: 'https://github.com/2Kelvin/fetch-react-project-challenge',
-    description: 'n this web project, I use an async await function to fetch API data into my app, convert it from its JSON format and use map() to display each required data on its own table cell with each having a unique key.',
+    description: 'In this web project, I use an async await function to fetch API data into my app, convert it from its JSON format and use map() to display each required data on its own table cell with each having a unique key.',
     tags: ['Async Programming', 'API', 'JSON'],
 };
 
@@ -46,7 +46,7 @@ const todoApp = {
 const airbnbApp = {
     id: 5,
     appType: 'Web app',
-    appName: 'AirBnB',
+    appName: 'AirBnB Flask App',
     githubLink: 'https://github.com/2Kelvin/AirBnB_clone_v4',
     description: 'An airBnB app built using Python\'s Flask for the server side and jquery for the client side.',
     tags: ['Python', 'Flask', 'jquery'],

@@ -1,15 +1,46 @@
+.projectCard {
+    border: 1px solid #333;
+    padding: 1.2rem 0.7rem;
+    border-radius: 5px;
+}
+
+.projectCard code {
+    font-size: 0.8rem;
+}
+
 .projectCard .appHeadingDiv {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.projectCard .appHeadingDiv h3 {
+    margin-top: 0.4rem;
+}
+
 .projectCard .appHeadingDiv a,
 .projectCard .appHeadingDiv a:visited {
     text-decoration: none;
+    color: inherit;
 }
 
 .projectCard .appHeadingDiv a .githubIcon {
-    height: 1rem;
-    width: 1rem;
+    height: 1.1rem;
+    width: 1.1rem;
+}
+
+.projectCard .appHeadingDiv a .githubIcon:hover {
+    color: purple;
+}
+
+.projectCard .appLanguages {
+    margin-top: 1rem;
+}
+
+.projectCard .appLanguages code {
+    border: 1px solid var(--myGreen);
+    border-radius: 20px;
+    padding: 0.3rem 0.5rem;
+    margin-right: 0.6rem;
+    opacity: 0.8;
 }
