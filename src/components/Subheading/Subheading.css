@@ -2,11 +2,12 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+    width: fit-content;
 }
 
 .webSubheading hr {
-    width: 12rem;
+    width: 8rem;
     margin: 0;
     margin-right: 1rem;
     height: 1px;
@@ -16,8 +17,7 @@
 
 .webSubheading h2 {
     color: var(--myGreen);
-    /* text-transform: uppercase; */
     cursor: pointer;
     font-family: "Roboto Mono", monospace;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
