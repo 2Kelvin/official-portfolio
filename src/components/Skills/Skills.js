@@ -28,7 +28,7 @@ export default function Skills() {
             </ul>
 
             <p>
-                I also have experience <span className='progLang'>collaborating</span> with other developers to develop a singular application on Github. I highly value <span className='progLang'>teamwork</span>.
+                I also have experience <span className='progLang'>collaborating</span> with other developers to develop a singular application on Github. From this I learnt the value of <span className='progLang'>teamwork</span>.
             </p>
         </section>
     );
