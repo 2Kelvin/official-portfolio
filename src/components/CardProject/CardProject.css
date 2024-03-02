@@ -1,21 +1,24 @@
 .projectCard {
     border: 1px solid #333;
-    padding: 1.2rem 0.7rem;
     border-radius: 5px;
+    padding-top: 1.2rem;
 }
 
 .projectCard code {
     font-size: 0.8rem;
+    margin: 0 0.7rem;
 }
 
 .projectCard .appHeadingDiv {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 0.7rem;
+    /* background-color: aquamarine; */
 }
 
 .projectCard .appHeadingDiv h3 {
-    margin-top: 0.4rem;
+    font-size: 1.3rem;
 }
 
 .projectCard .appHeadingDiv a,
@@ -25,22 +28,42 @@
 }
 
 .projectCard .appHeadingDiv a .githubIcon {
-    height: 1.1rem;
-    width: 1.1rem;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 .projectCard .appHeadingDiv a .githubIcon:hover {
     color: purple;
 }
 
+.projectCard .appDescription {
+    margin: 0 0.7rem;
+}
+
 .projectCard .appLanguages {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    border-top: 1px solid #333;
+    height: 2.5rem;
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    padding: 0 0.7rem;
+    background-color: #050505;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.projectCard .appLanguages .langSubdiv {
+    display: flex;
+    align-items: center;
 }
 
 .projectCard .appLanguages code {
     border: 1px solid var(--myGreen);
-    border-radius: 20px;
-    padding: 0.3rem 0.5rem;
-    margin-right: 0.6rem;
+    border-radius: 5px;
+    padding: 0.2rem 0.7rem;
+    margin: 0;
     opacity: 0.8;
+    width: fit-content;
+    margin-right: 0.4rem;
 }
