@@ -12,7 +12,7 @@ const decorApp = {
     appType: 'Web app',
     appName: 'Scarlette\'s Glam Decor',
     githubLink: 'https://github.com/2Kelvin/website-scarlettes-glam-decor',
-    description: 'An events and decoration website I built for my friend for her business.',
+    description: 'An events and decoration website I built for my friend for her business. The skill I picked up from this project is how to improve a website\'s performance by making the images more performant and easy to render. I did this by using lazy loading, compressing the images to smaller jpg formats and using small image thumbnail blurs waiting till the original image is fully loaded.',
     tags: ['React', 'CSS', 'Responsive Design'],
 };
 

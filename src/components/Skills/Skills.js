@@ -9,11 +9,22 @@ export default function Skills() {
             <Subheading subheadingName='Skills' />
 
             <p>
-                I'm a strong <span className='progLang'>JavaScript</span> developer. I love developing web apps using: <span className='progLang'>React</span>, <span className='progLang'>NodeJS</span>, <span className='progLang'>MongoDB</span> and <span className='progLang'>CSS</span>.
+                I'm a strong <span className='progLang'>JavaScript</span> developer. I love developing web and mobile applications. My niche and everyday go-to programming languages, frameworks and tools are:
             </p>
 
+            <ul className='alxList'>
+            <li> <BsPlus className='plus' /> React</li>
+            <li> <BsPlus className='plus' /> CSS</li>
+            <li> <BsPlus className='plus' /> NodeJS</li>
+            <li> <BsPlus className='plus' /> MongoDB</li>
+            <li> <BsPlus className='plus' /> Express</li>
+            <li> <BsPlus className='plus' /> Git</li>
+            <li> <BsPlus className='plus' /> React Native</li>
+            <li> <BsPlus className='plus' /> Linux</li>
+            </ul>
+
             <p>
-                I'm a fullstack graduate from <a href='https://www.alxafrica.com/' target='blank'>ALX</a> with a very solid understanding and experience in building both client-side and server side applications and also on working with servers and databases. Programming languages and tools learnt during this rigorous program are:
+                I'm also a <span className='progLang'>fullstack developer</span> graduate from <a href='https://www.alxafrica.com/' target='blank'>ALX</a> with a very solid understanding and experience in building both client-side and server side applications and working with servers and databases. Programming languages and tools used during this rigorous program are:
             </p>
 
             <ul className='alxList'>
@@ -22,7 +33,7 @@ export default function Skills() {
                 <li> <BsPlus className='plus' />MySQL</li>
                 <li> <BsPlus className='plus' />NodeJS</li>
                 <li> <BsPlus className='plus' />MongoDB</li>
-                <li> <BsPlus className='plus' />Git</li>
+                <li> <BsPlus className='plus' />DSA</li>
                 <li> <BsPlus className='plus' />Shell</li>
                 <li> <BsPlus className='plus' />Devops</li>
             </ul>

@@ -23,3 +23,8 @@ code {
 html {
   scroll-behavior: smooth;
 }
+
+.brackets {
+  color: orange;
+  opacity: 0.4;
+}

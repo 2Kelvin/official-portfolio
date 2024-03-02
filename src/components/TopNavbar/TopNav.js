@@ -6,7 +6,11 @@ export default function TopNav() {
     return (
         <nav className='topnav'>
             <a href='#webHome'>
-                <code>&lt; Kelvin /&gt;</code>
+                <code>
+                    <span className='brackets'>&lt; </span>
+                    Kelvin
+                    <span className='brackets'> /&gt;</span>
+                </code>
             </a>
             <div className='topLinksContainer'>
                 <SectionLink nameOfSection='Skills' />
