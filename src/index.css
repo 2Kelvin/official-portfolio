@@ -25,6 +25,6 @@ html {
 }
 
 .brackets {
-  color: orange;
-  opacity: 0.4;
+  color: var(--myGreen);
+  opacity: 0.2;
 }
