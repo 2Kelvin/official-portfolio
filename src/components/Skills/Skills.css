@@ -6,24 +6,28 @@
     margin: auto;
 }
 
-.skillsContainer a {
+.skillsContainer a,
+.skillsContainer a:visited {
     text-decoration: none;
     font-weight: 600;
     cursor: pointer;
+    color: orange;
 }
 
 .progLang {
     color: var(--myGreen);
 }
 
-.skillsContainer .alxList {
+.skillsContainer .alxList,
+.skillsContainer .myList {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 0.2rem;
 }
 
-.skillsContainer .alxList li {
+.skillsContainer .alxList li,
+.skillsContainer .myList li {
     display: flex;
     align-items: center;
     color: var(--myGreen);
@@ -32,7 +36,8 @@
     margin-bottom: 0.5rem;
 }
 
-.skillsContainer .alxList li .plus {
+.skillsContainer .alxList li .plus,
+.skillsContainer .myList li .plus {
     color: var(--myGreen);
     margin-right: 0.3rem;
 }

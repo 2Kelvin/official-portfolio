@@ -12,7 +12,7 @@ export default function Skills() {
                 I'm a strong <span className='progLang'>JavaScript</span> developer. I love developing web and mobile applications. My niche and everyday go-to programming languages, frameworks and tools are:
             </p>
 
-            <ul className='alxList'>
+            <ul className='myList'>
             <li> <BsPlus className='plus' /> React</li>
             <li> <BsPlus className='plus' /> CSS</li>
             <li> <BsPlus className='plus' /> NodeJS</li>
