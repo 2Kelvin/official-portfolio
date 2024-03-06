@@ -15,9 +15,11 @@ code {
 }
 
 :root {
-  --mainBg: #0C1C31;
+  --mainBg: #101111;
   --myGreen: #40fe95;
   --greyText: #757575;
+  /* new */
+  --thisBlueBg: #0C1C31;
 }
 
 html {
