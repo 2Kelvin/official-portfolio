@@ -15,7 +15,7 @@ code {
 }
 
 :root {
-  --mainBg: #070606;
+  --mainBg: #0C1C31;
   --myGreen: #40fe95;
   --greyText: #757575;
 }
@@ -25,11 +25,6 @@ html {
 }
 
 .brackets {
-  color: var(--myGreen);
+  color: #C1DF1F;
   opacity: 0.2;
 }
-
-/* try this colors
-bg -> rgb(39, 41, 50) || 272932
-#e7ecef
- */
