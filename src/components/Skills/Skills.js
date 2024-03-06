@@ -35,6 +35,7 @@ export default function Skills() {
                 <li> <BsPlus className='plus' />MongoDB</li>
                 <li> <BsPlus className='plus' />DSA</li>
                 <li> <BsPlus className='plus' />Shell</li>
+                <li> <BsPlus className='plus' />Redis</li>
                 <li> <BsPlus className='plus' />Devops</li>
             </ul>
 

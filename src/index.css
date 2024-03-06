@@ -3,7 +3,7 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white;
+  color: #ddd;
   font-size: 15px;
   background-color: var(--mainBg);
   font-family: "Lato", sans-serif;
@@ -15,7 +15,7 @@ code {
 }
 
 :root {
-  --mainBg: black;
+  --mainBg: #070606;
   --myGreen: #40fe95;
   --greyText: #757575;
 }
@@ -28,3 +28,8 @@ html {
   color: var(--myGreen);
   opacity: 0.2;
 }
+
+/* try this colors
+bg -> rgb(39, 41, 50) || 272932
+#e7ecef
+ */
