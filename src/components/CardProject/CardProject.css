@@ -1,7 +1,8 @@
 .projectCard {
-    border: 1px solid #444;
+    border: 1px solid rgba(64, 254, 149, 0.1);
     border-radius: 5px;
     padding-top: 1.2rem;
+    background-color: #101010;
 }
 
 .projectCard code {
@@ -41,13 +42,13 @@
 
 .projectCard .appLanguages {
     margin-top: 2rem;
-    border-top: 1px solid #444;
+    border-top: 1px solid rgba(64, 254, 149, 0.1);
     height: 2.5rem;
     display: grid;
     align-items: center;
     justify-content: start;
     padding: 0 0.7rem;
-    background-color: #111;
+    background-color: #141414;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
