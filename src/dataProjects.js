@@ -5,6 +5,7 @@ const kplcApp = {
     githubLink: 'https://github.com/2Kelvin/lights-back',
     description: 'A web application for Kenyans to report power anomalies in their exact location.',
     tags: ['React', 'CSS', 'Responsive Design'],
+    appUrl: 'https://2kelvin.github.io/landingpage-lightsback/',
 };
 
 const decorApp = {
@@ -14,6 +15,7 @@ const decorApp = {
     githubLink: 'https://github.com/2Kelvin/website-scarlettes-glam-decor',
     description: 'An events and decoration website I built for my friend for her business. The skill I picked up from this project is how to improve a website\'s performance by making the images more performant and easy to render. I did this by using lazy loading, compressing the images to smaller jpg formats and using small image thumbnail blurs waiting till the original image is fully loaded.',
     tags: ['React', 'CSS', 'Responsive Design'],
+    appUrl: 'https://bessie16.github.io/scarlettes-glam-decor/',
 };
 
 const therapistApp = {
@@ -23,6 +25,7 @@ const therapistApp = {
     githubLink: 'https://github.com/2Kelvin/myEmobilisProject',
     description: 'An android app where users can log in and search for counsellors who are relatively close to their location without the hussle of doing it manually. On finding a suitable therapist, the user can go ahead and call or text the therapist to book for a counselling session. Interested therapists can also join the app by registering and having their data saved to the app\'s database which is then displayed on the app.',
     tags: ['Kotlin', 'Firebase', 'Google Auth'],
+    appUrl: '',
 };
 
 const dataFetchingApp = {
@@ -32,6 +35,7 @@ const dataFetchingApp = {
     githubLink: 'https://github.com/2Kelvin/fetch-react-project-challenge',
     description: 'In this web project, I use an async await function to fetch API data into my app, convert it from its JSON format and use map() to display each required data on its own table cell with each having a unique key.',
     tags: ['Async Programming', 'API', 'JSON'],
+    appUrl: '',
 };
 
 const todoApp = {
@@ -41,6 +45,7 @@ const todoApp = {
     githubLink: 'https://github.com/2Kelvin/react-my-todo-app',
     description: 'A simple and beautiful app to keep track of my goals as I complete them. The golas are saved to local storage so the data isn\'t wiped or reset after every session. On the side, I added a feature that fetches some dad jokes from an API to lighten up the app.',
     tags: ['React', 'API', 'Local Storage'],
+    appUrl: '',
 };
 
 const airbnbApp = {
@@ -50,6 +55,7 @@ const airbnbApp = {
     githubLink: 'https://github.com/2Kelvin/AirBnB_clone_v4',
     description: 'An airBnB app built using Python\'s Flask for the server side and jquery for the client side.',
     tags: ['Python', 'Flask', 'jquery'],
+    appUrl: '',
 };
 
 

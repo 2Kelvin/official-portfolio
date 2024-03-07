@@ -14,6 +14,7 @@ export default function AllProjects() {
                     githubLink={project.githubLink}
                     description={project.description}
                     appTags={project.tags}
+                    appUrl={project.appUrl}
                 />
             )}
         </section>

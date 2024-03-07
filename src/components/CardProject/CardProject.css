@@ -19,6 +19,18 @@
 
 .projectCard .appHeadingDiv h3 {
     font-size: 1.3rem;
+    display: inline-block;
+}
+
+.externalAppLink {
+    height: 1.2rem;
+    width: 1.2rem;
+    display: inline;
+    margin-left: 0.5rem;
+}
+
+.externalAppLink:hover {
+    color: var(--myGreen);
 }
 
 .projectCard .appHeadingDiv a,
