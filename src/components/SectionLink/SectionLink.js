@@ -17,7 +17,6 @@ export default function SectionLink({ nameOfSection }) {
                     onMouseEnter={() => setIsHovered(true)}
                     onMouseLeave={() => setIsHovered(false)}
                 >
-
                     {nameOfSection}
                 </p>
             </a>

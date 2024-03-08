@@ -27,6 +27,7 @@ html {
 }
 
 .brackets {
-  color: #C1DF1F;
-  opacity: 0.2;
+  color: yellowgreen;
+  opacity: 1;
+  font-weight: 500;
 }

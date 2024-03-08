@@ -18,10 +18,15 @@
 }
 
 .socials .socialIcon {
-    height: 4rem;
-    width: 4rem;
+    height: 4.5rem;
+    width: 4.5rem;
     margin: auto;
     cursor: pointer;
+}
+
+.socials .github {
+    height: 3.9rem;
+    width: 3.9rem;
 }
 
 .socials .linkedIn:hover {
@@ -29,5 +34,18 @@
 }
 
 .socials .github:hover {
-    color: #283344;
+    color: #4078c0;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++++++++  */
+@media screen and (min-width: 600px) {
+    .socials .socialIcon {
+        height: 6rem;
+        width: 6rem;
+    }
+    .socials .github {
+        height: 5.3rem;
+        width: 5.3rem;
+    }
 }
