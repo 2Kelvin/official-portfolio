@@ -80,3 +80,23 @@
     margin-right: 0.5rem;
     font-size: 0.7rem;
 }
+
+
+/* ++++++++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++++++++  */
+@media screen and (min-width: 768px) {
+    .projectCard {
+        /* height: 22rem; */
+        position: relative;
+    }
+
+    .projectCard .appLanguages {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .projectCard .appLanguages code {
+        margin-right: 1rem;
+    }
+}

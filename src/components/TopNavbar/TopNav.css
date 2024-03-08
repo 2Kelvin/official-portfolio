@@ -6,8 +6,8 @@
 }
 
 .topLinksContainer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-around;
     gap: 1rem;
 }
 
@@ -21,4 +21,12 @@
     font-weight: 500;
     font-size: 0.9rem;
     cursor: pointer;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++++++++  */
+@media screen and (min-width: 1000px) {
+    .topnav code {
+        font-size: 1rem;
+    }
 }

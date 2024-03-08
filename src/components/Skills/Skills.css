@@ -41,3 +41,10 @@
     color: var(--myGreen);
     margin-right: 0.3rem;
 }
+
+/* ++++++++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++++++++  */
+@media screen and (min-width: 1000px) {
+    .skillsContainer {
+        width: 75%;
+    }
+}

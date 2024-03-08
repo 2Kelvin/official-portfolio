@@ -44,8 +44,31 @@
         height: 6rem;
         width: 6rem;
     }
+
     .socials .github {
         height: 5.3rem;
         width: 5.3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .socials {
+        width: 40%;
+    }
+
+    .socials .socialIcon {
+        height: 7rem;
+        width: 7rem;
+    }
+
+    .socials .github {
+        height: 6rem;
+        width: 6rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .socials {
+        width: 30%;
     }
 }

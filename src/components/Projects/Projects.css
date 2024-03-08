@@ -5,3 +5,11 @@
     margin-bottom: 4rem;
     padding-top: 5rem;
 }
+
+
+/* ++++++++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++++++++  */
+@media screen and (min-width: 1000px) {
+    .projectsContainer {
+        width: 75%;
+    }
+}

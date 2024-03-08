@@ -38,3 +38,16 @@
         margin-right: 0.8rem;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .eachSectionLink hr {
+        width: 5rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .eachSectionLink p {
+        font-size: 0.95rem;
+    }
+}

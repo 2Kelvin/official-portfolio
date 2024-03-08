@@ -21,3 +21,11 @@
     font-family: "Roboto Mono", monospace;
     font-size: 1.1rem;
 }
+
+
+/* ++++++++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++++++++  */
+@media screen and (min-width: 800px) {
+    .webSubheading h2 {
+        font-size: 1.2rem;
+    }
+}
