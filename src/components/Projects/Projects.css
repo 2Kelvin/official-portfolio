@@ -22,24 +22,48 @@
 
 @media screen and (min-width: 1300px) {
     .projectsContainer {
-        width: 55%;
+        width: 60%;
     }
 }
 
-@media screen and (min-width: 1356px) {
+@media screen and (min-width: 1363px) {
     .projectsContainer {
-        width: 76%;
+        width: 66%;
     }
 }
 
 @media screen and (min-width: 1400px) {
     .projectsContainer {
-        width: 73%;
+        width: 64%;
     }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1500px) {
+    .projectsContainer {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1637px) {
+    .projectsContainer {
+        width: 56%;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .projectsContainer {
+        width: 53%;
+    }
+}
+
+@media screen and (min-width: 1791px) {
     .projectsContainer {
         width: 50%;
+    }
+}
+
+@media screen and (min-width: 1890px) {
+    .projectsContainer {
+        width: 48%;
     }
 }

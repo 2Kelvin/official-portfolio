@@ -10,19 +10,25 @@
 @media screen and (min-width: 768px) {
     .allProjects {
         grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: minmax(auto, 22rem);
+        grid-auto-rows: minmax(auto, 18rem);
     }
 }
 
 @media screen and (min-width: 882px) {
     .allProjects {
-        grid-auto-rows: minmax(auto, 21rem);
+        grid-auto-rows: minmax(auto, 17rem);
     }
 }
 
-@media screen and (min-width: 1356px) {
+@media screen and (min-width: 1363px) {
     .allProjects {
         grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: minmax(auto, 22rem);
+        grid-auto-rows: minmax(auto, 20rem);
     }
 }
+
+/* @media screen and (min-width: 1400px) {
+    .allProjects {
+        grid-auto-rows: minmax(auto, 19rem);
+    }
+} */

@@ -57,17 +57,48 @@
 
 @media screen and (min-width: 1300px) {
     .skillsContainer {
-        width: 55%;
+        width: 60%;
     }
 }
 
-@media screen and (min-width: 1356px) {
+@media screen and (min-width: 1363px) {
     .skillsContainer {
-        width: 76%;
+        width: 69%;
     }
 }
+
 @media screen and (min-width: 1400px) {
     .skillsContainer {
-        width: 73%;
+        width: 64%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .skillsContainer {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1637px) {
+    .skillsContainer {
+        width: 56%;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .skillsContainer {
+        width: 53%;
+    }
+}
+
+@media screen and (min-width: 1791px) {
+    .skillsContainer {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1890px) {
+    .skillsContainer {
+        width: 48%;
     }
 }
