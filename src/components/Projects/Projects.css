@@ -13,3 +13,33 @@
         width: 75%;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .projectsContainer {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .projectsContainer {
+        width: 55%;
+    }
+}
+
+@media screen and (min-width: 1356px) {
+    .projectsContainer {
+        width: 76%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .projectsContainer {
+        width: 73%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .projectsContainer {
+        width: 50%;
+    }
+}

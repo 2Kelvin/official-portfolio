@@ -19,3 +19,10 @@
         grid-auto-rows: minmax(auto, 21rem);
     }
 }
+
+@media screen and (min-width: 1356px) {
+    .allProjects {
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(auto, 22rem);
+    }
+}

@@ -73,7 +73,7 @@
 .projectCard .appLanguages code {
     border: 1px solid rgba(64, 254, 149, 0.6);
     border-radius: 5px;
-    padding: 0.2rem 0.7rem;
+    padding: 0.2rem 0.4rem;
     margin: 0;
     opacity: 0.8;
     width: fit-content;
@@ -85,7 +85,6 @@
 /* ++++++++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++++++++  */
 @media screen and (min-width: 768px) {
     .projectCard {
-        /* height: 22rem; */
         position: relative;
     }
 

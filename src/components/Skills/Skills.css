@@ -48,3 +48,26 @@
         width: 75%;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .skillsContainer {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .skillsContainer {
+        width: 55%;
+    }
+}
+
+@media screen and (min-width: 1356px) {
+    .skillsContainer {
+        width: 76%;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .skillsContainer {
+        width: 73%;
+    }
+}
