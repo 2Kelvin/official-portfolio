@@ -26,9 +26,3 @@
         grid-auto-rows: minmax(auto, 20rem);
     }
 }
-
-/* @media screen and (min-width: 1400px) {
-    .allProjects {
-        grid-auto-rows: minmax(auto, 19rem);
-    }
-} */
