@@ -3,7 +3,7 @@ const kplcApp = {
     appType: 'Web app',
     appName: 'Lights Back',
     githubLink: 'https://github.com/2Kelvin/lights-back',
-    description: 'A web application for Kenyans to report power anomalies in their exact location.',
+    description: 'A web application for Kenyans to report power anomalies in their exact location. I integrated EmailJS library to create a direct channel for clients to send emails directly to the power company and get the help they need.',
     tags: ['React', 'CSS', 'Responsive Design'],
     appUrl: 'https://2kelvin.github.io/landingpage-lightsback/',
 };
@@ -33,7 +33,7 @@ const dataFetchingApp = {
     appType: 'Web app',
     appName: 'Async Data Fetching',
     githubLink: 'https://github.com/2Kelvin/fetch-react-project-challenge',
-    description: 'Using asynchronous programming to fetch API data, then parsing the JSON data and finally using map() to display each required data on its own table cell.',
+    description: 'I used JavaScript asynchronous programming to fetch API data, then parsed the JSON data received and finally used map() to display each required data on its own table cell. It\'s a simple project about fetching rest API data.',
     tags: ['Async Programming', 'API', 'JSON'],
     appUrl: '',
 };
@@ -53,7 +53,7 @@ const airbnbApp = {
     appType: 'Web app',
     appName: 'AirBnB Flask App',
     githubLink: 'https://github.com/2Kelvin/AirBnB_clone_v4',
-    description: 'An airBnB app built using Python\'s Flask for the server side and jquery for the client side.',
+    description: 'An airBnB app built using Python\'s Flask for the server side and jquery for the client side. It\'s a collaborative project tackled as part of my ALX program project challenges. I learnt to use Flask & also work with other developers on a single project.',
     tags: ['Python', 'Flask', 'jquery'],
     appUrl: '',
 };
