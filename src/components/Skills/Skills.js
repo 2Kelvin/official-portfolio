@@ -9,7 +9,7 @@ export default function Skills() {
             <Subheading subheadingName='Skills' />
 
             <p>
-                I'm a strong <span className='progLang'>JavaScript</span> developer. I love developing web and mobile applications. My niche and everyday go-to programming languages, frameworks and tools are:
+                I'm a strong <span className='progLang'>JavaScript</span> developer. I love developing web and mobile applications. I'm adept at working with and consuming <span className='progLang'>Rest API</span> and <span className='progLang'>GraphQL</span> data on the client-side. My niche and everyday go-to programming tools are:
             </p>
 
             <ul className='myList'>
@@ -21,6 +21,7 @@ export default function Skills() {
             <li> <BsPlus className='plus' /> Git</li>
             <li> <BsPlus className='plus' /> React Native</li>
             <li> <BsPlus className='plus' /> Linux</li>
+            <li> <BsPlus className='plus' /> Figma</li>
             </ul>
 
             <p>
